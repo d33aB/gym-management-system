@@ -190,3 +190,8 @@ app_license = "MIT"
 # auth_hooks = [
 #	"gym_management_system.auth.validate"
 # ]
+
+# Override 404 Page
+# extend_website_page_controller_context = {
+#     "frappe.www.404": "app.pages.context_404"
+# }

@@ -1,0 +1,37 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-01 22:28:50.021384",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "gym_workout_plan",
+  "exercise"
+ ],
+ "fields": [
+  {
+   "fieldname": "gym_workout_plan",
+   "fieldtype": "Link",
+   "label": "Gym Workout Plan",
+   "options": "Gym Workout Plan"
+  },
+  {
+   "fieldname": "exercise",
+   "fieldtype": "Data",
+   "label": "Exercise"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-02-01 22:29:10.804023",
+ "modified_by": "Administrator",
+ "module": "Gym Management System",
+ "name": "Gym Workout Plan Exercise",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

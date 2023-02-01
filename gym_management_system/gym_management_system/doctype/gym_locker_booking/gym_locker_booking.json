@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-01 22:22:51.120426",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "start_date",
+  "end_date",
+  "column_break_3",
+  "start_hour",
+  "end_hour"
+ ],
+ "fields": [
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Start Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "start_hour",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "From (time)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "End Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "end_hour",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "To (time)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-02-01 22:24:39.929000",
+ "modified_by": "Administrator",
+ "module": "Gym Management System",
+ "name": "Gym Locker Booking",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
